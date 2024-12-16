@@ -48,13 +48,13 @@ header .logo h2 {
     background-image: linear-gradient(to right, #f785ff 0%, #ffffff 100%);
     color: transparent;
     -webkit-background-clip: text;
-    font-size: 40px;
+    font-size: 30px;
     padding: 0px 10px;
 }
 
 header .logo h3 {
     font-family: 'Caveat', cursive;
-    font-size: 22px;
+    font-size: 16px;
     padding: 0px 10px;
 }
 
@@ -65,7 +65,7 @@ header .social {
 }
 
 header .social i {
-    font-size: 34px;
+    font-size: 32px;
 }
 
 header .social a {
@@ -155,12 +155,12 @@ main .box {
 }
 
 .item li {
-    font-size: 24px;
-    list-style-type: disc;
+    font-size: 20px;
+    list-style: none;
 }
 
 .item span {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 /* Tema claro */
