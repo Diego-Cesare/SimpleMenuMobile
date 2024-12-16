@@ -49,6 +49,8 @@ menuBnt.addEventListener("click", (event) => {
 window.addEventListener("scroll", () => {
     const menuBar = document.getElementById("topBar")
     if (window.scrollY > 0) {
+        removeBlur()
+
         menuList.style.transition = "transform 0.5s ease";
         menuList.style.transform = "translateY(-130px)";
         main.style.transform = "translateY(0px)";
